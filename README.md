@@ -3,6 +3,8 @@
 ### installation:
 ```sh
 $ gcc -O3 -Wall notmuch.c notmuch
+```
+(optimization is critical for maximum performance on all platforms)
 
 ### usage:
 ```sh
