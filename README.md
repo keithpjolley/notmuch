@@ -29,8 +29,9 @@ added "notmuch.sh" and "notmuch.py". To run either first make them executable th
 % ./notmuch
 ```
 ### benchmarks
-(starting with notmuch.c)
+These were run on a micro EC2 instance and are for demonstration purposes only. Your mileage may vary. The only benchmarks that matter are your benchmarks. 
 ```sh
+$ cc -O3 -Wall notmuch.c -o notmuch
 $ time ./notmuch
 
 real	0m0.001s
@@ -46,6 +47,7 @@ $ time ./notmuch.py
 real	0m0.014s
 user	0m0.008s
 sys	0m0.000s
+$ rm notmuch
 $ go build notmuch.go
 $ time ./notmuch
 
