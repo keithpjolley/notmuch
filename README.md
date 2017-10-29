@@ -24,8 +24,10 @@ gpl, or something
 
 ### New Updates
 added "notmuch.sh" and "notmuch.py". To run either first make them executable them run, as so:
-```
-% chmod 755 ./notmuch.??
+```sh
+% chmod 755 ./notmuch.sh ./notmuch.py
 % ./notmuch.sh
 % ./notmuch.py
+% go build notmuch.go
+% ./notmuch
 ```
